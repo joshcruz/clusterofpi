@@ -1,0 +1,21 @@
+site_name: ClusterOfPi
+theme:
+  name: material
+  logo: assets/rpi.png
+  favicon: assets/rpi.png
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+extra:
+  generator: false
